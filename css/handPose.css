@@ -1,0 +1,85 @@
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+body {
+  bottom: 0;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: 0px 0px;
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  background-color: #ffffff;
+  height: 300px;
+  width: 100%;
+  left: 0;
+  top: 10px;
+}
+.container2 {
+  position: absolute;
+  background-color: #596e73;
+  height: 100%;
+  width: 30%;
+  left: 63%;
+  top: 10px;
+}
+
+.input_video {
+  position:relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  &.selfie {
+    transform: scale(-1, 1);
+  }
+}
+
+.output_canvas {
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.loading {
+  display: flex;
+  position: absolute;
+  top: 0;
+  /* right: 0; */
+  bottom: 0;
+  left: 0px;
+  height: 300px;
+  width: 100%;
+  align-items: center;
+  backface-visibility: hidden;
+  justify-content: center;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+
+.loaded .loading {
+  opacity: 0;
+}
+.control-panel {
+  position: absolute;
+  right: 230px;   /* 调整6个框 */
+  top: 10px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}

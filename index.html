@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>HandControl</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/handPose.css">
+        <link rel="stylesheet" type="text/css" href="css/controlPanel.css">
+        <link rel="stylesheet" type="text/css" href="css/controlbutton.css">
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils@0.1/drawing_utils.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic@0.1/holistic.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="container2">
+                <video id="video" class="input_video"></video>
+                <canvas class="output_canvas"></canvas>
+    
+                <div class="loading">
+                    <div class="message">Loading...</div>
+                </div>
+            </div>
+            <video id="pvw" class="res1" src="./res/loading.gif" muted="muted" controls="controls" autoplay="autoplay" loop></video>
+            <video id="pgm" class="res2" src="./res/loading.gif" muted="muted" controls="controls" autoplay="autoplay" loop></video>
+            
+            <video id="videoElement1" class="res3" src="" muted="muted" controls="controls" autoplay="autoplay" ></video>
+            <video id="videoElement2" class="res4" src="" muted="muted" controls="controls" autoplay="autoplay" ></video>
+
+            <div class="camera-button" >
+                <input  id="button1" type="button" value="open camera"  > 
+            </div>
+            <div class="camera-button2" >
+                <a  href = "index.html" >
+                <input  id="button2" type="button" value="stop camera" > 
+                </a>
+            </div>        
+            <div class="signal">
+                <span>signal</span>
+            </div>
+        </div>
+       
+        <div class="control-panel"> </div>
+        <script src="https://cdn.bootcss.com/flv.js/1.5.0/flv.js"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+        <video id="1" class="div1video" src="" muted="muted" controls="controls" autoplay="autoplay" loop></video>
+        <div class="videomongo1" id="videomongo1" onclick οndblclick > </div>
+        <video id="2" class="div2video" src="" muted="muted" controls="controls" autoplay="autoplay" loop></video>
+        <div class="videomongo2" id="videomongo2" onclick οndblclick > </div> 
+        <video id="3" class="div3video" src="" muted="muted" controls="controls" autoplay="autoplay" loop></video>
+        <div class="videomongo3" id="videomongo3" onclick οndblclick > </div>
+        <video id="4" class="div4video" src="" muted="muted" controls="controls" autoplay="autoplay" loop></video>
+        <div class="videomongo4" id="videomongo4" onclick οndblclick > </div>
+        <div class="videomongo5" id="videomongo5" onclick οndblclick > </div>
+    
+        <script type="text/javascript" src="js/click.js" crossorigin="anonymous"></script>
+       <!-- 推流 -->
+        <div class="mainContainer">
+            <video name="videoElement" class="centeredVideo" id="videoElement" controls="controls" autoplay="autoplay" muted>
+            </video>
+        </div>
+        <script type="text/javascript" src="js/push.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/push2.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/push3.js" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="js/handPose.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/main.js" crossorigin="anonymous"></script>
+       
+    </body>
+          
+</html>

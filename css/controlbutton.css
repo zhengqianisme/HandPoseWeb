@@ -1,0 +1,371 @@
+.res1{
+    display: flex; 
+    position: absolute; 
+    top:0px; 
+    left: 0;       
+    height: 300px;
+    width: 30%;  
+    margin: 10px;  
+}
+.res2{
+    display: flex; 
+    position: absolute; 
+    top:0px; 
+    left: 31%;       
+    height: 300px;
+    width: 30%;  
+    margin: 10px; 
+}
+.res3{
+    display: flex; 
+    position: absolute; 
+    top:0px; 
+    left: 0;       
+    height: 300px;
+    width: 30%;  
+    margin: 10px; 
+    visibility: hidden;
+    /* visibility: visible; */
+}
+.res4{
+    display: flex; 
+    position: absolute; 
+    top:0px; 
+    left: 31%;       
+    height: 300px;
+    width: 30%;  
+    margin: 10px; 
+    visibility: hidden;
+    /* visibility: visible; */
+}
+.camera-button{
+position: absolute;
+right: 0;
+top:10px;
+width:95px;
+height:30px;
+background-color:#8d8d8d;
+border:2px solid #fff;
+border-radius:10px;
+box-shadow:1px 1px 10px #000000a0;
+font-size:20px;
+text-align:center;
+}
+.camera-button2{
+position: absolute;
+right: 0;
+top:50px;
+width:95px;
+height:30px;
+background-color:#8d8d8d;
+border:2px solid #fff;
+border-radius:10px;
+box-shadow:1px 1px 10px #000000a0;
+font-size:20px;
+text-align:center;
+}
+
+.mark{   
+position: absolute;  
+right: 0; 
+top:100px;   
+width:95px;   
+height:30px;   
+background-color:#8d8d8d;   
+border:2px solid #fff;   
+border-radius:10px;   
+box-shadow:1px 1px 10px #000000a0;   
+font-size:20px;   
+text-align:center; 
+}
+.signal{   
+    position: absolute;  
+    right: 0;
+    top:100px;   
+    width:95px;   
+    height:60px;   
+    background-color:#8d8d8d;   
+    border:2px solid #fff;   
+    border-radius:10px;   
+    box-shadow:1px 1px 10px #000000a0;   
+    font-size:30px;   
+    text-align:center; 
+    }
+  
+/* .count{  
+display: flex; 
+position: absolute; 
+top:0px; 
+left: 0;       
+height: 300px;
+width: 400px;  
+background-color:#8d8d8d;     
+font-size:80px;   
+text-align:center; 
+color: #000;
+margin: 10px;
+visibility: hidden;
+} */
+
+.div1{
+    position: absolute;
+    top: 400px;
+    left:0%;
+    width: 18%; 
+    line-height: 150px;  
+    border: 0px; 
+    margin: 10px; 
+    text-align: center; 
+    color: white; 
+    background-color:violet;
+}
+.div2{
+    position: absolute;
+    top: 400px;
+    left:20%;
+    width: 18%; 
+    line-height: 150px;  
+    border: 0px; 
+    margin: 10px; 
+    text-align: center; 
+    color: white; 
+    background-color:violet;
+}
+.div3{
+    position: absolute;
+    top: 400px;
+    left:40%;
+    width: 18%; 
+    line-height: 150px;  
+    border: 0px; 
+    margin: 10px; 
+    text-align: center; 
+    color: white; 
+    background-color:violet;
+}
+.div4{
+    position: absolute;
+    top: 400px;
+    left:60%;
+    width: 18%; 
+    line-height: 150px;  
+    border: 0px; 
+    margin: 10px; 
+    text-align: center; 
+    color: white; 
+    background-color:violet;
+}
+.div5{
+    position: absolute;
+    top: 400px;
+    left:80%;
+    width: 18%; 
+    line-height: 150px;  
+    border: 0px; 
+    margin: 10px;  
+    text-align: center; 
+    color: white; 
+    background-color:violet;
+}
+.div1video{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left:0%;
+    width: 18%; 
+    height: 150px;  
+    margin: 10px;
+    border-style:solid; 
+    border-width:10px;
+    border-color:rgb(255, 255, 255); 
+    /* visibility: hidden; */
+}
+.div2video{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left:20%;
+    width: 18%; 
+    height: 150px;  
+    margin: 10px;
+    border-style:solid; 
+    border-width:10px;
+    border-color:rgb(255, 255, 255); 
+}
+.div3video{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left:40%;
+    width: 18%; 
+    height: 150px;  
+    margin: 10px;
+    border-style:solid; 
+    border-width:10px;
+    border-color:rgb(255, 255, 255); 
+}
+.div4video{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left:60%;
+    /* left:0;
+    width: 100%; 
+    height: 150px;   */
+    width: 18%; 
+    height: 150px;  
+    margin: 10px;
+    border-style:solid; 
+    border-width:10px;
+    border-color:rgb(255, 255, 255); 
+}
+.div5video{
+    /* 可伸缩 */
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left:80%;
+    width: 18%; 
+    height: 150px;  
+    margin: 10px;
+    border-style:solid; 
+    border-width:10px;
+    border-color:rgb(255, 255, 255); 
+    visibility: hidden;
+}
+.mystream{
+    /* 可伸缩 */
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left:0;
+    width: 18%; 
+    height: 150px;  
+    margin: 10px;
+    border-style:solid; 
+    border-width:10px;
+    border-color:rgb(255, 255, 255); 
+} 
+
+.mainContainer {
+    position: absolute;
+    display: block;
+    width: 18%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    top:400px;
+    left:80%;
+}
+
+.urlInput {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.centeredVideo {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.controls {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.logcatBox {
+    border-color: #CCCCCC;
+    font-size: 11px;
+    font-family: Menlo, Consolas, monospace;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.playlog{
+    position: absolute;
+    top:60%;
+}
+
+.videoPlayer{
+    /* display: flex; */
+    position: absolute;
+    top: 400px;
+    left:0%;
+    width: 18%; 
+    height: 150px;  
+    margin: 10px;
+    border-style:solid; 
+    border-width:10px;
+    border-color:rgb(255, 255, 255); 
+    /* visibility: hidden; */
+}
+.videomongo1{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left:0;
+    width: 18%; 
+    height: 150px;  
+    margin: 10px;
+    z-index:1;
+}
+.videomongo2{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left:20%;
+    width: 18%; 
+    height: 150px;  
+    margin: 10px;
+    z-index:1;
+}
+.videomongo3{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left:40%;
+    width: 18%; 
+    height: 150px;  
+    margin: 10px;
+    z-index:1;
+}
+.videomongo4{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left:60%;
+    width: 18%; 
+    height: 150px;  
+    margin: 10px;
+    /* border-color:rgb(255, 255, 255);  */
+    /* background:#F00;  */
+    z-index:1;
+    /* zhiding */
+    /* visibility: hidden; */
+}
+.videomongo5{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left:80%;
+    width: 18%; 
+    height: 150px;  
+    margin: 10px;
+    z-index:1;
+}
