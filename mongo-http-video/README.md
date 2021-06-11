@@ -1,3 +1,4 @@
 
-cd mongo-http-video
-npm start
+1、cd mongo-http-video
+
+2、npm start
